@@ -193,10 +193,10 @@ public class ConsoleMap
         }
     }
 
-    public void AddEnemy(Vector2 position)
-    {
-        enemies.Add(new Enemy(position));
-    }
+    // public void AddEnemy(Vector2 position)
+    // {
+    //     enemies.Add(new Enemy(position));
+    // }
 
     public void UpdateEnemies()
     {

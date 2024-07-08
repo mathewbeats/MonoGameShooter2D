@@ -43,6 +43,67 @@
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
     </ItemGroup>
+    <ItemGroup>
+      <None Remove="Content\tree.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Content\Their-Secret-World_Looping.mp3" />
+      <Resource Include="Content\Their-Secret-World_Looping.mp3">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\17.mp3" />
+      <Resource Include="Content\17.mp3">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\texture.png" />
+      <Resource Include="Content\texture.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\attack - pitchfork shield.png" />
+      <Resource Include="Content\attack - pitchfork shield.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\pngegg.png" />
+      <Resource Include="Content\pngegg.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\LPC Expressions.png" />
+      <Resource Include="Content\LPC Expressions.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\disciple-45x51.png" />
+      <Resource Include="Content\disciple-45x51.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\golem-walk.png" />
+      <Resource Include="Content\golem-walk.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\human.png" />
+      <Resource Include="Content\human.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\walk - sword shield.png" />
+      <Resource Include="Content\walk - sword shield.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\PC Computer - Railroad Tycoon 3 - Ground Texture 2.png" />
+      <Resource Include="Content\PC Computer - Railroad Tycoon 3 - Ground Texture 2.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\flames.png" />
+      <Resource Include="Content\flames.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\cave (1).png" />
+      <Resource Include="Content\cave (1).png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+      <None Remove="Content\map_2.png" />
+      <Resource Include="Content\map_2.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
     <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
         <Message Text="Restoring dotnet tools" Importance="High"/>
         <Exec Command="dotnet tool restore"/>
